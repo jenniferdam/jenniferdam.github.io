@@ -1,0 +1,40 @@
+
+.card{
+        background-color: whitesmoke;
+        width: 20vw;
+        height: 50vh;
+        border-radius: 1%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        box-sizing: border-box;
+        display: none;
+        position: absolute;
+        z-index: 10;
+        margin-top: 5%;
+        margin-left: 40%;
+        
+    }
+.card > div.header_card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card > div.header_card > p.name_card{
+    margin-left: 5%;
+}
+.card > div.header_card > p.cancel_card{
+    padding-right: 5%;
+    cursor: context-menu;
+}
+
+.content_card{
+    padding-left: 10%;
+    font-size: 14px;
+
+}
+.content_card > a{
+    color:black;
+}
+.content_card > h5{
+    color:blueviolet;
+}
