@@ -114,14 +114,12 @@
       font-size: 32px !important;
     }
 }
-@media only screen and (orientation: landscape) {
+@media only screen and (max-width: 768px) and (orientation: landscape){
   footer{
       margin-left: 0px;
   }
-  .black_background{
-    height: 1400px !important;
-  }
+
   #card{
-    height: 25rem;
+    height: 60rem;
   }
 }
