@@ -10,7 +10,18 @@ body{
     background: #e4afff;
     font-family: Montserrat, Arial, Helvetica, sans-serif;
 }
+#title_build{
+  width: 20ch;
+  animation: typing 3s steps(20) alternate;
+  text-wrap: nowrap;
+  overflow: hidden;
 
+}
+@keyframes typing{
+  from {
+    width: 0ch;
+  }
+}
 /*  Div principal*/
 #build{
     background-color: rgb(255, 255, 255);
