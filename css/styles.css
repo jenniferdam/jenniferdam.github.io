@@ -12,7 +12,7 @@ body{
 }
 #title_build{
   width: 20ch;
-  animation: typing 3s steps(20) alternate;
+  animation: typing 3s ease alternate;
   text-wrap: nowrap;
   overflow: hidden;
 
