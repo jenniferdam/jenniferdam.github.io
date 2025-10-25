@@ -9,11 +9,14 @@ other_experience.addEventListener('click', () => {
         card.style.display="block";
         other_experience.style.color= "blueviolet";
         background.style.display ="block"
+        document.body.style.overflow = "hidden";
 })
 
 cancel.addEventListener('click', () => {
         card.style.display="none";
         other_experience.style.color= "grey";
         background.style.display = "none"
+        ocument.body.style.overflow = "auto";
 })
+
 
