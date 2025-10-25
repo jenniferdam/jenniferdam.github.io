@@ -83,7 +83,7 @@
   .logo_container{
 
     position: absolute;
-    padding-left: 10%;
+    padding-left: 20%;
   }
     .logo{
     width: 75px;
@@ -122,4 +122,5 @@
   #card{
     height: 60rem;
   }
+
 }
