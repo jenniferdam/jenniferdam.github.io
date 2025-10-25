@@ -16,7 +16,8 @@ cancel.addEventListener('click', () => {
         card.style.display="none";
         other_experience.style.color= "grey";
         background.style.display = "none"
-        ocument.body.style.overflow = "auto";
+        document.body.style.overflow = "auto";
 })
+
 
 
