@@ -13,15 +13,29 @@ body{
     padding: 0;
     
 }
-#title_build{
-  width: 20ch;
-  animation: typing 3s ease alternate;
-  text-wrap: nowrap;
-
+#title_build {
+  width: 0ch; /* Empieza con 0 caracteres visibles */
+  overflow: hidden; /* Oculta el texto que aún no "se escribió" */
+  white-space: nowrap; /* Evita que el texto salte de línea */
+  border-right: 2px solid black; /* Cursor parpadeante */
+  animation: typing 3s steps(20) forwards, blink 0.7s step-end infinite alternate;
 }
-@keyframes typing{
+
+@keyframes typing {
   from {
     width: 0ch;
+  }
+  to {
+    width: 20ch;
+  }
+}
+
+@keyframes blink {
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: black;
   }
 }
 /*  Div principal*/
@@ -78,6 +92,7 @@ body{
   transform: scale(1.3); 
   z-index: 1;
 }
+
 
 
 
